@@ -11,6 +11,6 @@ public class Retangulo implements Forma{
 
     @Override
     public void calcularArea() {
-        System.out.println("Resultado do Area do Retângulo: " + base*altura);
+        System.out.println("Resultado do Area do Retângulo: " +  Math.round(base*altura) + "\n");
     }
 }

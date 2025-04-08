@@ -10,7 +10,10 @@ public class Cachorro extends Animal{
         this.som = som;
     }
 
-    public void fazerSom() {
-        System.out.println("O som que "+ nome +" faz é: Bark! Bark! BARK!");
+    public String fazerSom() {
+        String result;
+        result = "O som que "+ nome +" faz é: Bark! Bark! BARK!\n";
+
+        return result;
     }
 }

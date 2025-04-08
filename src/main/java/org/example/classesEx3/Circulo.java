@@ -9,6 +9,6 @@ public class Circulo implements Forma{
 
     @Override
     public void calcularArea() {
-        System.out.println("Resultado da Área do Circulo: " + (Math.pow(raio, 2)) * (Math.PI));
+        System.out.println("\nResultado da Área do Circulo: " + Math.round((Math.pow(raio, 2)) * (Math.PI)));
     }
 }
